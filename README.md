@@ -1,2 +1,9 @@
 # List_in_Flutter
-Put number either 0, 1, 2, or 3 to make name of Mlaaysian Fruits pop! 
+For this, you will get to know a few of Malaysian Fruits. 
+ENter  number between 0-3 to know what is the names. 
+0 - Durian
+1 - Mangosteen
+2 - Papaya
+3 - Pomelo
+
+Then, click 'Enter' & voila!
