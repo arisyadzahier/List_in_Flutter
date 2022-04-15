@@ -5,5 +5,11 @@ ENter  number between 0-3 to know what is the names.
 1 - Mangosteen
 2 - Papaya
 3 - Pomelo
+4 - Langsat
+5 - Starfruit
+6 - Ciku
+7 - Jackfruit
+8 - Salak
+9 - Rambutan
 
 Then, click 'Enter' & voila!
