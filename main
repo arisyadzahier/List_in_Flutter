@@ -13,7 +13,7 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  //To get user input from the textfield
+  //To get user input using the textfield widget
   final _UserInput = TextEditingController();
   var userpost = '';
   var number = 0;
@@ -32,21 +32,27 @@ class _MyAppState extends State<MyApp> {
     'Mangosteen',
     'Papaya',
     'Pomelo',
+    'Langsat',
+    'Starfruit',
+    'Ciku',
+    'Jackfruit',
+    'Salak',
+    'Rambutan',
   ];
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Color.fromARGB(255, 255, 255, 255),
+        backgroundColor: Color.fromARGB(255, 219, 216, 216),
         appBar: AppBar(
           title: const Center(
             child: Text('Malaysian Fruits'),
           ),
-          backgroundColor: Color.fromARGB(255, 125, 215, 221),
+          backgroundColor: Color.fromARGB(255, 106, 188, 194),
         ),
         body: Center(
           child: Padding(
-            padding: const EdgeInsets.all(8.0),
+            padding: const EdgeInsets.all(5.0),
             child: Column(children: [
               const SizedBox(
                 height: 30,
@@ -54,7 +60,7 @@ class _MyAppState extends State<MyApp> {
               TextField(
                 controller: _UserInput,
                 decoration: const InputDecoration(
-                    hintText: "Enter number between 0-3",
+                    hintText: "Enter number between 0-9",
                     labelText: "Please enter any number here:",
                     labelStyle: TextStyle(fontSize: 22, color: Colors.black),
                     fillColor: Colors.white24,
@@ -66,9 +72,9 @@ class _MyAppState extends State<MyApp> {
                 maxLength: 1,
               ),
               const SizedBox(
-                height: 5,
+                height: 2,
               ),
-              RaisedButton(
+              ElevatedButton(
                 child: const Text('Enter'),
                 onPressed: (onpress),
               ),
